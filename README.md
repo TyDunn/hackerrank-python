@@ -1,1 +1,1 @@
-# hackerrank-python
+Practicing some Python
