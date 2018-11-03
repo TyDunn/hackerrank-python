@@ -1,7 +1,5 @@
 #!/bin/python3
 
-from collections import defaultdict
-
 def check_permutation(str1, str2):
     if len(str1) != len(str2):
         return False
