@@ -6,7 +6,7 @@ class Node:
 		self.data = data
 		self.next = None
 
-def remove_duplicates(node, k):
+def remove_kth_ele(node, k):
 
 	if k == 1:
 		return node.next
@@ -42,5 +42,5 @@ if __name__ == '__main__':
 
 	num = int(input())
 
-	result = remove_duplicates(head, num)
+	result = remove_kth_ele(head, num)
 	print_nodes(result)
